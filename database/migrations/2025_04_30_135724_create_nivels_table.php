@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('nivels', function (Blueprint $table) {
+        Schema::create('niveis', function (Blueprint $table) {
             $table->id();
             $table->string('nome')->unique();
             $table->softDeletes();
