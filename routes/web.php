@@ -8,6 +8,8 @@ use App\Http\Controllers\PessoaControllers;
 // Route::get('/pessoas/create',[PessoaController::class,'create']);
 // Route::post('/pessoas',[PessoaController::class,'store'])->name('pessoas.store');
 
-Route::get('/', function () {
-    return view('home', ['idade' => null,'frutas' => ['banana', 'maçã', 'laranja']]);
-})->name('home');
+// Route::get('/', function () {
+//     return view('home', ['idade' => null,'frutas' => ['banana', 'maçã', 'laranja']]);
+// })->name('home');
+
+Route::resource('/niveis', NivelController::class);
