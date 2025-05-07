@@ -27,7 +27,7 @@
     <a>
 
     <button type="submit" class="btn btn-primary">Submit</button>
-    <button class="btn btn-secondary" onclick="window.location.href='{{route('niveis.index')}}'"> Return</button>
-
+    <button class="btn btn-secondary" onclick="window.location.href='{{route('niveis.index')}}'"> @svg('eva-arrow-back-outline', 'w-3 h-3') Return</button>
+    <a class="btn btn-primary "href="{{ route('niveis.index') }}">botaao com a!</a>
 </form>
 @endsection

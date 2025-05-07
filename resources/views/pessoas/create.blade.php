@@ -16,6 +16,7 @@
             <label for="cpf">CPF:</label>
             <input type="text"  name="cpf" required>
         </div>
+        
         <button type="submit">Criar</button>
     </form>
 </div>

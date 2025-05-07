@@ -22,8 +22,8 @@
         function drawChart() {
 
             const data = google.visualization.arrayToDataTable([
-            ['Contry', 'Mhl'],
-            ['Italy', 55],
+            ['Contry', '00000'],
+            ['BRAZIL', 55],
             ['France', 49],
             ['Spain', 44],
             ['USA', 24],
