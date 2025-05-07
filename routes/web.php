@@ -13,3 +13,5 @@ use App\Http\Controllers\PessoaControllers;
 // })->name('home');
 
 Route::resource('/niveis', NivelController::class);
+
+Route::get('/relatorios', [RelatorioController::class, 'emitirRelatorio'])->name('relatorio.emitir');
