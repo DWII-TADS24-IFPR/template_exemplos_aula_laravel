@@ -15,3 +15,7 @@ use App\Http\Controllers\PessoaControllers;
 Route::resource('/niveis', NivelController::class);
 
 Route::get('/relatorios', [RelatorioController::class, 'emitirRelatorio'])->name('relatorio.emitir');
+
+Route::get('/graficos', function (){
+    return view('graficos.index');
+})->name('graficos');
